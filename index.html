@@ -1,0 +1,40 @@
+
+          <html>
+            <body><!DOCTYPE html>
+<html>
+    <head>
+        <title>Identify your work level</title>
+    </head>
+    <body>
+        <h1>Identify Your Work Lelvel</h1>
+        <form onsubmit="mark()">
+            Type in you score<br><br>
+            <input type="text" id="score">
+            <input type="submit">
+        </form>
+        </body>
+        </html> 
+    </body>
+            <style>
+
+
+
+
+body{
+background-color:lightgray;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}</style>
+            <script>function mark(){
+    var marks=document.getElementById("score").value
+    if(marks>0 && marks<=60){
+    alert("You need to work a lot harder")
+    }
+    if(marks>60 && marks<=80){
+    alert("Keep on trying to get better")
+    }
+    if(marks>80 && marks<=100){
+    alert("Maintain your score")
+}
+}</script>
+          </html>
+        
